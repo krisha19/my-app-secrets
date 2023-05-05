@@ -1,6 +1,6 @@
-# Connections:
-#   travis:
-#     travis_token: '{travis_token}'
+Connections:
+  travis:
+    travis_token: '{travis_token}'
 Storages:
   dev:
     - account_id: '03a998f970884066b84d71d41fa79052'
