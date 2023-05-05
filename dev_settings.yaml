@@ -1,0 +1,22 @@
+# Connections:
+#   travis:
+#     travis_token: '{travis_token}'
+Storages:
+  dev:
+    - account_id: '03a998f970884066b84d71d41fa79052'
+      region: global
+      apikey-placeholder: '{global_dev_sm_api_key}'
+      endpoint: '{dev_account_global_secets_manager_end_point}'
+    - account_id: '03a998f970884066b84d71d41fa79052'
+      region: eu-de
+      apikey-placeholder: '{eu_de_dev_sm_api_key}'
+      endpoint: '{dev_account_global_secets_manager_end_point}'
+    - account_id: '03a998f970884066b84d71d41fa79052'
+      region: '{region}'
+      apikey-placeholder: '{regional_dev_sm_api_key}'
+      endpoint: '{dev_account_regional_secets_manager_end_point}'
+Clusters:
+  dev:
+    - account_id: '03a998f970884066b84d71d41fa79052'
+      apikey-placeholder: '{dev_account_api_key}'  # not required if we can use same api key whch provided as `access-sync-dev-apikey` in functional users to access clusters
+      cluster-name-placeholder: '{dev_account_cluster_name}'
