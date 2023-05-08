@@ -1,6 +1,8 @@
 Connections:
   travis:
     travis_token: '{travis_token}'
+  slack:
+    slack_webhook_url: '{slack_webhook_url}'
 Storages:
   dev:
     - account_id: '03a998f970884066b84d71d41fa79052'
